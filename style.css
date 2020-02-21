@@ -1,0 +1,208 @@
+body{
+    margin:0;
+    
+}
+h1{
+    font-size:50px;
+    color:orange;
+}
+h2{
+    font-size:40px;
+    color:darkblue;
+    text-transform:capitalize;
+}
+h3{
+    text-transform:capitalize;
+    color:#00eeff;
+}
+h4{
+    color:#060818;
+    text-transform: capitalize;
+}
+p{
+    font-style: italic;
+    color:rgb(31, 36, 1);
+    font-size:18px;
+    text-transform: capitalize;
+}
+section{
+    
+}
+.half-width{
+    width:35%;
+    margin:5%;
+    padding:2%;
+    float:left;
+}
+.half-width img{
+    width:100%;
+}
+.btn{
+    text-decoration:none;
+    padding:10px 20px;
+    font-size:18px;
+    font-weight:bold;
+    color:#fff;
+    background-color:rgb(248, 16, 124);
+    position:absolute;
+    margin-top:15px;
+    border-radius:20px;
+    
+}
+.btn:hover{
+    background:#6f00ff;
+    color:;
+    
+}
+.about-sec{
+background:url("img/header-bg.png");
+background-size: cover;
+height: 700px;
+
+}
+ul{
+   
+    
+}
+ul li{
+    list-style-type:none;
+    font-size:24px;
+    font-weight:bold;
+    line-height:40px;
+    text-transform:capitalize;
+    color:rgb(88, 26, 52);
+}
+.biography-sec{
+    background-image:url("img/biography-bg.png");
+    background-size: cover;
+    height: 800px;
+    margin-bottom:100px;
+    
+    
+}
+.work-sec{
+    text-align:center;
+    padding:0 100px;
+    background:url("img/latest-work-bg.png");
+    background-size: cover;
+    height: 500px;
+ 
+}
+.box{
+  width:33.33%;
+  float:left;
+  padding:40px 20px;
+  overflow:hidden;
+  box-sizing:border-box;
+  height:400px;
+}
+.box img {
+    width:100%;
+}
+.agent-sec{
+    
+}
+.agent-sec p{
+    text-transform:capitalize;
+    font-size:18px;
+    
+    background-size: cover;
+}
+div.team{
+    text-align:center;
+    overflow:hidden;
+    color:white;
+    text-transform:capitalize;
+  
+  }
+  .team .row{
+  
+  }
+  .column{
+    width:25%;
+    float:left;
+    overflow:hidden;
+    padding:30px 45px;
+    box-sizing:border-box;
+  
+  
+  }
+  .column:nth-child(2){
+    color:darkred;
+  }
+  .column:nth-child(1){
+    color:darkred;
+  }
+  .column:nth-child(3){
+    color:darkred;
+  }
+  .column:nth-child(4){
+    color:darkred;
+  }
+  .column img{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+  }
+  .column ul{
+    text-align:center;
+    margin:5px;
+    box-sizing: border-box;
+  }
+  .column ul li {
+    list-style-type:none;
+    box-sizing:border-box;
+  
+  }
+  .column ul li a{
+    float:left;
+    padding:10px;
+    color: #21223c;
+    font-size:25px;
+  }
+  .column ul li a i{
+  
+  
+   transition:0.7s;
+  }
+  .column ul li a i:hover{
+    transform:rotate(360deg);
+  }
+  .contact-sec{
+      text-align:center;
+      position:relative;
+      height:550px;
+      margin-top:150px;
+      background-image:url("img/biography-bg.png");
+      background-size: cover;
+      
+  }
+  .contact-sec h2{
+      padding-bottom:50px;
+      background:#f9f9f9;
+  }
+  .text{
+      margin-bottom:100px;
+  }
+  .red-box{
+      
+      width:500px;
+      background:rgb(255, 0, 191);
+      text-align:center;
+      padding:50px 100px;
+      margin-left:320px;
+      border-radius:40px;
+      
+
+  }
+  .red-box p{
+      color:yellow;
+  }
+  footer{
+      text-align: center;
+      font-size:24px;
+      font-weight:bold;
+      margin-top:150px;
+      margin-bottom:10px;
+      color:#4e3919;
+  }
